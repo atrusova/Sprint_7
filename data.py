@@ -1,3 +1,16 @@
+class Url:
+    url_create_courier = 'https://qa-scooter.praktikum-services.ru/api/v1/courier'
+    url_login_courier = 'https://qa-scooter.praktikum-services.ru/api/v1/courier/login'
+    url_create_order = 'https://qa-scooter.praktikum-services.ru/api/v1/orders'
+    url_get_order_list = 'https://qa-scooter.praktikum-services.ru/api/v1/orders?limit=10&page=0&nearestStation=["110"]'
+
+class TextsError:
+    login_already_used = "Этот логин уже используется. Попробуйте другой."
+    not_full_data_for_registration = "Недостаточно данных для создания учетной записи"
+    not_full_data_for_login = 'Недостаточно данных для входа'
+    account_not_found = 'Учетная запись не найдена'
+
+
 class OrderData:
     order_data_black_color = {
         "firstName": "Anastasiia",
